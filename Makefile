@@ -1,4 +1,4 @@
-name=deploy_sms
+name=test_sms_versions
 
 include VERSION.mk
 version=$(majorv).$(minorv).$(microv).$(qualifierv)
