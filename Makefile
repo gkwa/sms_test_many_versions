@@ -1,4 +1,4 @@
-name=template
+name=deploy_sms
 
 include VERSION.mk
 version=$(majorv).$(minorv).$(microv).$(qualifierv)
