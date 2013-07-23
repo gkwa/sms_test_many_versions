@@ -159,26 +159,31 @@ SectionEnd
 
 Section /o v1.70 section_v1.70
 	File sms_versions\Volumes\Production\MediaStation\1.70\sms1.exe
+	File sms_versions\Volumes\Production\MediaStation\1.70\sb.mov
 	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
 SectionEnd
 
 Section /o v1.69 section_v1.69
 	File sms_versions\Volumes\Production\MediaStation\1.69\sms1.exe
+	File sms_versions\Volumes\Production\MediaStation\1.69\sb.bmp
 	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
 SectionEnd
 
 Section /o v1.68 section_v1.68
 	File sms_versions\Volumes\Production\MediaStation\1.68\sms1.exe
+	File sms_versions\Volumes\Production\MediaStation\1.68\sb.bmp
 	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
 SectionEnd
 
 Section /o v1.67 section_v1.67
 	File sms_versions\Volumes\Production\MediaStation\1.67\sms1.exe
+	File sms_versions\Volumes\Production\MediaStation\1.67\sb.bmp
 	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
 SectionEnd
 
 Section /o v1.66 section_v1.66
 	File sms_versions\Volumes\Production\MediaStation\1.66\sms1.exe
+	File sms_versions\Volumes\Production\MediaStation\1.66\sb.bmp
 	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
 SectionEnd
 
