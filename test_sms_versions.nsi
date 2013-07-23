@@ -134,6 +134,24 @@ SectionEnd
 # sms versions
 ##############################
 
+Section /o v1.74 section_v1.74
+	File sms_versions\Volumes\Production\MediaStation\1.74\sms1.exe
+	File sms_versions\Volumes\Production\MediaStation\1.74\sb.mov
+	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
+SectionEnd
+
+Section /o v1.73 section_v1.73
+	File sms_versions\Volumes\Production\MediaStation\1.73\sms1.exe
+	File sms_versions\Volumes\Production\MediaStation\1.73\sb.mov
+	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
+SectionEnd
+
+Section /o v1.72 section_v1.72
+	File sms_versions\Volumes\Production\MediaStation\1.72\sms1.exe
+	File sms_versions\Volumes\Production\MediaStation\1.72\sb.mov
+	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
+SectionEnd
+
 Section /o v1.71 section_v1.71
 	File sms_versions\Volumes\Production\MediaStation\1.71\sms1.exe
 	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 1553042
