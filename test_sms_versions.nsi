@@ -361,6 +361,22 @@ Section /o v1.3.5 section_v1.3.5
 	WriteINIStr $sysdrive:\Streambox\SMS\license_sms.lic User Code 3168985
 SectionEnd
 
+Section "Rename logs" section_rename_logs
+
+	SetOutPath $sysdrive:\Streambox\SMS
+	${GetTime} "" "L" $0 $1 $2 $3 $4 $5 $6
+	; $0="01"      day
+	; $1="04"      month
+	; $2="2005"    year
+	; $3="Friday"  day of week name
+	; $4="16"      hour
+	; $5="05"      minute
+	; $6="50"      seconds
+	Rename $sysdrive:\Streambox\SMS\sms.log $sysdrive:\Streambox\SMS\sms_$2$1$0$4$5$6.log
+	Rename $sysdrive:\Streambox\SMS\sms1.log $sysdrive:\Streambox\SMS\sms1_$2$1$0$4$5$6.log
+
+SectionEnd
+
 ##############################
 # sms versions
 ##############################
